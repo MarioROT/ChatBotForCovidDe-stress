@@ -12,7 +12,7 @@ Equipo:
 
 > Or Contributors/People
 
-| <a href="http://fvcproductions.com" target="_blank">**Natalia Patiño**</a> | <a href="http://fvcproductions.com" target="_blank">**Mario Rosas**</a> | <a href="http://fvcproductions.com" target="_blank">**Andrea Garibay**</a> |<a href="http://fvcproductions.com" target="_blank">**Maricarmen Salas**</a> |
+| <a href="https://ca.slack-edge.com/T015712DGEA-U0171LWEVUK-2270708b32bf-512" target="_blank">**Natalia Patiño**</a> | <a href="http://fvcproductions.com" target="_blank">**Mario Rosas**</a> | <a href="http://fvcproductions.com" target="_blank">**Andrea Garibay**</a> |<a href="http://fvcproductions.com" target="_blank">**Maricarmen Salas**</a> |
 | :---: |:---:| :---:|
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
 | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
