@@ -9,7 +9,7 @@ Este repositorio es para alojar el código de un ChatBot que da recomendaciones 
 
 # Repository Title Goes Here
 
-> Subtitle or Short Description Goes Here
+> Subtitle: Proyecto Challenge 
 
 > ideally one sentence
 
