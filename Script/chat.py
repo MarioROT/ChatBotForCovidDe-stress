@@ -176,8 +176,9 @@ NEGATIVE = ['no', "dont", 'not', "wouldnt", "couldnt", "wont", "doesnt", "arent"
 
 UNKNOWN = ['Good.', 'Okay', 'Huh?', 'Yeah!', 'Well...', 'Ñam', 'Hum']
 CHATTING = ['What would you like to do now? I could recommend you some music, books or cool video, which one do you prefer?', 'Hum so, what type of music do yo like?',
-            'Do you want something to relax?', 'I could search some good music for you, what gender do you like?', 'I have some cool videos here, wanna see one?',
-            'Do you like videos? I have different categories', 'Also, I have here some of my favorite books, you like reading a lot, so so, or just a few?']
+            'Do you want something to relax?', 'I could search some good music for you, what gender do you like?', 'I have some cool videos here, pick one category! :D',
+            'Do you like videos? I have different categories', 'Also, I have here some of my favorite books, you like reading a lot, so so, or just a few?', 
+            'What should I search about?']
 
 QUESTION = "I'm too shy to answer questions. What do you want to talk about?"
 
@@ -262,6 +263,10 @@ def have_a_chat():
               print(chr(27)+"[1;31m"+'CHATBOT: Here are some information about Covid in your zone: \n')
               for x in cases:
                 print(chr(27)+"[1;31m"+ x, ':', cases[x])
+              #img = cv2.imread('/content/ChatBotForCovidDe-stress/Imagenes/figura_covid_nacional.png')
+              #plt.imshow(img)
+              print(chr(27)+"[1;31m"+"CHATBOT: You could find a cool map here: http://covid19data.link/data/mapJHU.htm")
+              print(chr(27)+"[1;32m"+"CHATBOT: But let's talk about something more relaxing")
               
             
             if is_in_list(msg, BOOKS_IN):
@@ -315,7 +320,9 @@ def have_a_chat():
             out_msg = random.choice(UNKNOWN)
         
         print(chr(27)+"[1;36m"+'CHATBOT:')
+
         for i in textwrap.wrap(str(out_msg), 130):
           print(chr(27)+"[1;36m"+ i)
-        print('\n' +chr(27)+"[1;36m"+'CHATBOT: \t'+random.choice(CHATTING))
 
+        if out_msg != 'Bye!':
+          print('\n' +chr(27)+"[1;36m"+'CHATBOT: \t'+random.choice(CHATTING))
