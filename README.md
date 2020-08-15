@@ -6,7 +6,7 @@ Este repositorio es para alojar el código de un ChatBot que da recomendaciones 
 Equipo: 
 * Mario Rosas
 * Natalia Patiño
-* Andrea Garibay
 * Maricarmen Salas
+* Andrea Garibay
 
 Nuestra página web es: https://chatbotchallengecdcmx.github.io/PageChatBotDe-Stress/
