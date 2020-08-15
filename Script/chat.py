@@ -93,7 +93,7 @@ def is_points(input_string):
 
 """# Librerias"""
 
-!pip install covid
+#!pip install covid
 from covid import Covid
 import string
 import random
@@ -105,7 +105,7 @@ import cv2
 
 """# Información"""
 
-!git clone https://github.com/ChatBotChallengeCdCMX/ChatBotForCovidDe-stress.git
+#!git clone https://github.com/ChatBotChallengeCdCMX/ChatBotForCovidDe-stress.git
 
 Hombres = pd.read_csv('/content/ChatBotForCovidDe-stress/DataBases/nombreshombres .csv')
 Mujeres = pd.read_csv('/content/ChatBotForCovidDe-stress/DataBases/nombresmujeres.csv')
