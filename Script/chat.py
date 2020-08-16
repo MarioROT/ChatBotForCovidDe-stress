@@ -265,7 +265,7 @@ def have_a_chat():
                 print(chr(27)+"[1;31m"+ x, ':', cases[x])
               #img = cv2.imread('/content/ChatBotForCovidDe-stress/Imagenes/figura_covid_nacional.png')
               #plt.imshow(img)
-              print(chr(27)+"[1;31m"+"CHATBOT: You could find a cool map here: http://covid19data.link/data/mapJHU.htm")
+              print(chr(27)+"[1;31m"+"CHATBOT: You could find a cool map here: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6")
               print(chr(27)+"[1;32m"+"CHATBOT: But let's talk about something more relaxing")
               
             
